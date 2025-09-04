@@ -1,0 +1,293 @@
+.about-hero-section{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.Container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1100px;
+    margin: 0 auto;
+    gap: 50px;
+}
+
+.about-hero-section .aboutSpan{
+    color: rgb(2, 133, 204);
+    background-color: rgb(240, 249, 255);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    font-weight: 500;
+}
+
+.about-hero-section h1{
+    font-size: 30px;
+    max-width: 700px;
+    margin: 10px auto 0 auto;
+}
+
+.Span{
+    background-image: linear-gradient(to right, #078aab, #119e63);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.about-hero-content .span{
+    background-color: rgb(233, 246, 255);
+    color: rgb(8, 140, 161);
+    padding: 10px;
+    border: none;
+    border-radius: 25px;
+    font-weight: 500;
+}
+
+.about-hero-section .about-hero-description{
+    color: rgb(80, 72, 73);
+    max-width: 990px;
+    margin: 0 auto;
+}
+
+.about-qualities{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 20px;
+    row-gap: 30px;
+}
+
+.about-quality i{
+    transition: transform 0.5s ease;
+}
+.about-quality:hover i{
+    transform: scale(1.2);
+}
+.about-quality h3{
+    font-size: 15px;
+}
+
+.about-quality p{
+    font-size: 16px;
+}
+
+
+.about-quality i{
+    margin-bottom: 5px;
+}
+
+.about-qualities .fa-solid.fa-bullseye{
+    color: rgb(2, 133, 199);
+    background-color: rgb(224, 243, 255);
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.about-qualities .fa-solid.fa-clock{
+    color: rgb(23, 163, 74);
+    background-color: rgb(220, 252, 231);
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.about-qualities .fa-solid.fa-dollar-sign{
+    color: rgb(191, 161, 71);
+    background-color: rgb(250, 248, 227);
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.about-qualities .fa-solid.fa-people-group{
+    color: rgb(2, 133, 199);
+    color: rgb(2, 133, 199);
+    background-color: rgb(224, 243, 255);
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+
+.secondContainer{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 20px;
+    column-gap: 30px;
+}
+
+.quality{
+    transition: transform 0.5s ease;
+}
+.quality:hover{
+    transform: scale(1.1);
+}
+
+
+.quality h3{
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+.quality p{
+    font-size: 16px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.quality:nth-child(1){
+    background-color: rgb(227, 244, 255);
+    padding: 30px;
+    border: none;
+    border-radius: 20px;
+    margin-top: -60px;
+    margin-bottom: 20px;
+}
+.quality:nth-child(2){
+    background-color: rgb(227, 244, 255);
+    padding: 30px;
+    border: none;
+    border-radius: 20px;
+}
+.quality:nth-child(3){
+    background-color: rgb(250, 249, 232);
+    padding: 30px;
+    border: none;
+    border-radius: 20px;
+    margin-top: -20px;
+}
+.quality:nth-child(4){
+    background-color: rgb(227, 244, 255);
+    padding: 30px;
+    border: none;
+    border-radius: 20px;
+}
+.quality .fa-solid.fa-bullseye{
+    background-color: rgb(14, 163, 232);
+    color: white;
+    padding: 13px;
+    font-size: 20px;
+    border: none;
+    border-radius: 15px;
+    margin-bottom: 5px;
+}
+.quality .fa-solid.fa-people-group{
+    background-color: rgb(23, 163, 77);
+    color: white;
+    padding: 13px;
+    font-size: 20px;
+    border: none;
+    border-radius: 15px;
+    margin-bottom: 5px;
+}
+.quality .fa-solid.fa-clock{
+    background-color: rgb(209, 181, 82);
+    color: white;
+    padding: 13px;
+    font-size: 20px;
+    border: none;
+    border-radius: 15px;
+    margin-bottom: 5px;
+}
+.quality .fa-solid.fa-dollar-sign{
+    background-image: linear-gradient(to right, #078aab, #119e63);
+    color: white;
+    padding: 13px 15px;
+    font-size: 20px;
+    border: none;
+    border-radius: 15px;
+    margin-bottom: 5px;
+}
+
+@media screen and (max-width: 480px){
+    .con{
+        padding: 0 20px;
+    }
+    .Container{
+        display: block;
+    }
+
+    .about-hero-content .span{
+        font-size: 15px;
+    }
+
+    .about-hero-content h3{
+        font-size: 15px;
+    }
+
+    .about-hero-description{
+        max-width: 200px;
+        margin: 0 auto;
+    }
+
+    .about-qualities{
+        margin-top: 50px;
+        margin-bottom: 100px;
+    }
+
+    .secondContainer{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    
+    .quality{
+        transition: transform 0.5s ease;
+    }
+    .quality:hover{
+        transform: scale(1);
+    }
+
+
+    .quality:nth-child(1){
+        text-align: center;
+        background-color: rgb(227, 244, 255);
+        padding: 40px 10px;
+        border: none;
+        border-radius: 20px;
+        /* margin-bottom: 100px; */
+    }
+    .quality:nth-child(2){
+        text-align: center;
+        padding: 40px 10px;
+        background-color: rgb(227, 244, 255);
+        border: none;
+        border-radius: 20px;
+        margin-bottom: 35px;
+    }
+    .quality:nth-child(3){
+        text-align: center;
+        padding: 40px 10px;
+        background-color: rgb(250, 249, 232);
+        border: none;
+        border-radius: 20px;
+        margin-bottom: 20px;
+    }
+    .quality:nth-child(4){
+        text-align: center;
+        padding: 40px 10px;
+        background-color: rgb(227, 244, 255);
+        border: none;
+        border-radius: 20px;
+    }   
+}
+
+
+@media(min-width: 481px) and (max-width: 768px){
+    .con{
+        padding: 0 35px;
+    }
+
+    .Container{
+        display: block;
+    }
+
+    .about-qualities{
+        margin-top: 50px;
+    }
+    
+    .secondContainer{
+        margin-top: 150px;
+    }
+}

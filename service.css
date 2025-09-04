@@ -1,0 +1,443 @@
+.service{
+    margin-top: 70px;
+    padding-bottom: 150px;
+    background-color: rgb(245, 250, 252);
+    position: relative;
+}
+
+.service-content{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.service-content span,
+.service-content h1,
+.service-content p{
+    text-align: center;
+}
+
+
+.service-content h1{
+    font-size: 45px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.service-content .services-description{
+    color: rgb(80, 80, 80);
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+.service-offer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 20px;
+    column-gap: 30px;
+    margin-top: 60px;
+}
+
+.offer{
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 40px 30px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.5s, box-shadow 0.5s;
+}
+
+.offer:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.offer button{
+    cursor: pointer;
+}
+
+.offer h3{
+    font-size: 23px;
+    margin-top: 8px;
+}
+
+.offer p{
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.offer ul li{
+    list-style: none;
+    padding-bottom: 9px;
+    font-size: 16px;
+}
+
+.offer ul li i{
+    font-size: 2px;
+    margin-right: 15px;
+    color: rgb(33, 196, 93);
+}
+
+.offer .fa-solid.fa-droplet{
+    color: rgb(2, 133, 199);
+    background-color: rgb(224, 243, 255);
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+}
+
+.offerCta1{
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px 0;
+    border: 1px solid rgb(187, 229, 252);
+    border-radius: 5px;
+    background-color: white;
+    color: rgb(2, 133, 204);
+    font-weight: bold;
+    transition: color 0.5s ease, background-color 0.5s ease;
+}
+
+.offer .fa-solid.fa-recycle{
+    color: rgb(21, 163, 73);
+    background-color: rgb(220, 252, 231);
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+}
+
+.offerCta2{
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px 0;
+    border: 1px solid rgb(228, 230, 235);
+    border-radius: 5px;
+    background-color: white;
+    color: rgb(22, 166, 130);
+    font-weight: bold;
+    transition: color 0.5s ease, background-color 0.5s ease;
+}
+
+.offer .fa-solid.fa-wrench{
+    color: rgb(191, 161, 71);
+    background-color: rgb(250, 248, 227);
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+}
+
+.offerCta3{
+    margin-top: 50px;
+    width: 100%;
+    padding: 10px 0;
+    border: 1px solid rgb(250, 248, 227);
+    border-radius: 5px;
+    background-color: white;
+    color: rgb(191, 161, 71);
+    font-weight: bold;
+    transition: color 0.5s ease, background-color 0.5s ease;
+}
+
+
+.offer .fa-solid.fa-building{
+    color: rgb(2, 133, 199);
+    background-color: rgb(224, 243, 255);
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+}
+
+.offerCta4{
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px 0;
+    border: 1px solid rgb(187, 229, 252);
+    border-radius: 5px;
+    background-color: white;
+    color: rgb(2, 133, 204);
+    font-weight: bold;
+    transition: color 0.5s ease, background-color 0.5s ease;
+}
+
+.offer .fa-solid.fa-trash-can{
+    color: rgb(21, 163, 73);
+    background-color: rgb(220, 252, 231);
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+}
+
+.offerCta5{
+    margin-top: 50px;
+    width: 100%;
+    padding: 10px 0;
+    border: 1px solid rgb(228, 230, 235);
+    border-radius: 5px;
+    background-color: white;
+    color: rgb(22, 166, 130);
+    font-weight: bold;
+    transition: color 0.5s ease, background-color 0.5s ease;
+}
+
+.offerCta1:hover,
+.offerCta2:hover,
+.offerCta3:hover,
+.offerCta4:hover,
+.offerCta5:hover{
+    color: black;
+    background-color: rgb(211, 240, 255);
+}
+
+
+.Service-cta{
+    max-width: 1070px;
+    margin: 70px auto 0 auto;
+    text-align: center;
+    background-color: white;
+    padding: 50px 30px;
+    border-radius: 20px;
+    box-shadow: 0 2px 10px  rgba(0, 0, 0, 0.1);
+}
+
+.Service-cta h4{
+    font-size: 35px;
+}
+
+.Service-cta p{
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+
+.service-cta-btn1{
+    background-image: linear-gradient(to right, #0b6694, #21b5fa);
+    color: white;
+    font-weight: 550;
+    padding: 15px 30px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-image 0.5s ease;
+}
+
+.service-cta-btn1:hover{
+    background-image: linear-gradient(to right, #1e86b9, #35bfff);
+}
+
+.service-cta-btn1 a{
+    color: white;
+    font-size: 16px;
+}
+
+
+.service-cta-btn2{
+    background-color: white;
+    border: 1px solid rgb(6, 143, 212);
+    padding: 15px 30px;
+    border-radius: 25px;
+    font-size: 16px;
+    font-weight: 550;
+    transition: color 0.5s ease, background-color 0.5s ease;
+}
+
+.service-cta-btn2:hover{
+    color: black;
+    background-color: rgb(211, 240, 255);
+}
+
+
+@media screen and (max-width: 480px){
+    .con{
+        padding: 0 20px;
+    }
+
+    .service{
+        margin-top: 50px;
+    }
+
+
+    .service-content h1{
+        font-size: 27px;
+        margin-bottom: 15px;
+        margin-top: 20px;
+    }
+
+    .service-content .services-description{
+        color: rgb(80, 80, 80);
+        max-width: 600px;
+        margin: 0 auto;
+        font-size: 18px;
+        line-height: 1.6;
+    }
+
+
+    .service-offer{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 20px;
+        column-gap: 30px;
+        margin-top: 80px;
+    }
+
+    .offerCta1,
+    .offerCta2,
+    .offerCta3,
+    .offerCta4,
+    .offerCta5{
+        font-size: 16px;
+    }
+
+    .offerCta1{
+        border: 2px solid rgb(187, 229, 252);
+    }
+    .offerCta2{
+        border: 2px solid rgb(228, 230, 235);
+    }
+    .offerCta3{
+        border: 2px solid rgb(250, 248, 227);
+    }
+    .offerCta4{
+        border: 2px solid rgb(187, 229, 252);
+    }
+    .offerCta5{
+        border: 2px solid rgb(228, 230, 235);
+    }
+    
+    
+    .offer .fa-solid.fa-circle{
+        font-size: 8px;
+    }
+
+    .Service-cta h4{
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+
+    .Service-cta p{
+        max-width: 700px;
+        margin: 0 auto;
+        font-size: 17px;
+    }
+
+    .service-cta-con{
+        display: flex;
+        flex-direction: column;
+        row-gap: 15px;
+        align-items: center;
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width: 480px){
+    .con{
+        padding: 0 20px;
+    }
+
+    .service{
+        margin-top: 50px;
+    }
+
+
+    .service-content h1{
+        font-size: 27px;
+        margin-bottom: 15px;
+        margin-top: 20px;
+    }
+
+    .service-content .services-description{
+        color: rgb(80, 80, 80);
+        max-width: 600px;
+        margin: 0 auto;
+        font-size: 18px;
+        line-height: 1.6;
+    }
+
+
+    .service-offer{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 20px;
+        column-gap: 30px;
+        margin-top: 80px;
+    }
+
+    .offerCta1,
+    .offerCta2,
+    .offerCta3,
+    .offerCta4,
+    .offerCta5{
+        font-size: 16px;
+    }
+
+    .offerCta1{
+        border: 2px solid rgb(187, 229, 252);
+    }
+    .offerCta2{
+        border: 2px solid rgb(228, 230, 235);
+    }
+    .offerCta3{
+        border: 2px solid rgb(250, 248, 227);
+    }
+    .offerCta4{
+        border: 2px solid rgb(187, 229, 252);
+    }
+    .offerCta5{
+        border: 2px solid rgb(228, 230, 235);
+    }
+    
+    
+    .offer .fa-solid.fa-circle{
+        font-size: 8px;
+    }
+
+    .Service-cta h4{
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+
+    .Service-cta p{
+        max-width: 700px;
+        margin: 0 auto;
+        font-size: 17px;
+    }
+
+    .service-cta-con{
+        display: flex;
+        flex-direction: column;
+        row-gap: 15px;
+        align-items: center;
+        width: 100%;
+    }
+}
+
+
+@media(min-width: 481px) and (max-width: 768px){
+    .con{
+        padding: 0 20px;
+    }
+    .service-content h4{
+        display: inline-block;
+        position: absolute;
+        top: 50px;
+        right: 270px;
+        z-index: 10;
+        background-color: white;
+        color: rgb(8, 140, 161);
+        box-shadow: 0 8px 10px  rgba(0, 0, 0, 0.1);
+        padding: 10px;
+        border: none;
+        border-radius: 25px;
+        font-weight: 500;
+    }
+
+    .service-offer{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 20px;
+        column-gap: 30px;
+        margin-top: 80px;
+    }
+}
